@@ -1,0 +1,49 @@
+body {
+  font-family: Georgia;
+}
+header {
+  background-color: #4793E6;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 470px;
+  background: #4BB6E6;
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 120px;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 470px;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #46DBE6;
+  padding: 20px;
+  text-align: center;
+  color: black;
+}
+nom {
+  padding: 10px;
+  color: black;
+  float: right;
+}
+img {
+	display: block;
+	width: 55%;
+	margin: auto;
+}
